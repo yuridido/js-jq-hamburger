@@ -1,7 +1,7 @@
 $('.fa-bars').click(function() {
-    $('.hamburger-menu').fadeIn(300);
+    $('.hamburger-menu').addClass('active');
 });
 
 $('.close').click(function() {
-    $('.hamburger-menu').fadeOut(300);
+    $('.hamburger-menu').removeClass('active');
 });
